@@ -104,3 +104,13 @@
     width: 20vh;
     height: 20vh; 
 }
+
+.img-a:hover{
+    transform: scale(1.15);
+    transition: all 1s;
+}
+
+.price-a:hover{
+    transform: scale(1.5);
+    transition: all 2s;
+}
