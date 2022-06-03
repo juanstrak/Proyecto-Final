@@ -73,7 +73,22 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     margin-left: 30px;
-    height: 600px;
+    height: 800px;
+  
+}
+
+.main-nosotros{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin-left: 30px;
+    height: 800px;
+}
+
+.main-contacto{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin-left: 30px;
+    height: 300px;
 }
 
 .promos{
@@ -105,10 +120,12 @@
     height: 20vh; 
 }
 
+/* BT */
 .carousel-inner{
     display: flex;
     align-items: center ;
     margin-left: 35%;
+
 }
 
 .price{
