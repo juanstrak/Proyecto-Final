@@ -56,6 +56,12 @@
   margin-left: 23%;
 }
 
+.titulo {
+  margin-top: 2%;
+  margin-left: 2%;
+  color: black;
+}
+
 .carousel-inner {
   display: flex;
   align-items: center;
@@ -89,6 +95,10 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: white;
   margin-left: 30px;
+}
+
+.p-index {
+  margin-top: 6%;
 }
 
 @media screen and (max-width: 700px) {
