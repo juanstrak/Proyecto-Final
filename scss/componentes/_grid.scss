@@ -1,0 +1,13 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 8px;
+}
+.grid-item {
+    background-color: #463d37 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}   
