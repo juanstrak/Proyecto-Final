@@ -1,0 +1,38 @@
+.main-nosotros{
+    height: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin-left: 30px;
+    margin-top: 2%;
+    .titulo-nosotros{
+        color: white;
+        margin-left: 8%;
+    }
+    .nosotros-p{
+        font-size: x-large;
+        width: 70%;
+        margin-left: 10%;
+        padding: 1%
+    }
+    .contenedor{
+        @extend .jc-c;
+        background-color: $cards-bg;
+        padding: 1%;
+        border-radius: $border-r;
+        width: 80%;
+        margin-left:8%;
+        .img-juan{
+            width: 15%;
+            border-radius: $border-r;   
+        }
+        .cont-text{
+            .h2-n{
+                @extend .p-nosotros;
+            }
+            .p-nosotros{
+                color: $text;
+                padding: 2%;
+            }
+        }
+    }
+}

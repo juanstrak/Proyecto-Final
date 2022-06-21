@@ -1,42 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/** BASE **/
+/** COMPONENTES **/
 .body-all {
-  margin: 0px;
   background-color: #696059;
-}
-
-.header-all {
-  background-color: rgb(43, 43, 43);
   margin: 0px;
 }
-
-.ul-list {
-  display: flex;
-  justify-content: space-between;
-  width: 600px;
-  margin-left: 100px;
-  margin-bottom: 0px;
+.body-all .header-all {
+  background-color: rgb(43, 43, 43);
 }
-
-.nav-text {
+.body-all .header-all .logokm {
+  width: 100px;
+  margin-left: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.body-all .header-all .nav-text {
   text-decoration: none;
   color: #b6a486;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: large;
 }
-
-.navbar-toggler .navbar-toggler-icon {
-  color: white;
-}
-
-.nav-bar {
-  display: flex;
-  align-items: center;
-}
-
-.logokm {
-  width: 100px;
-  margin-left: 60px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+.body-all .header-all .nav-text:hover {
+  color: #463d37;
 }
 
 .footer-all {
@@ -44,35 +33,10 @@
   height: 190px;
   margin-top: 40%;
 }
-
-.logosJuntos {
-  display: flex;
-  justify-content: center;
-}
-
-.logoredes {
+.footer-all .logosJuntos .logoredes {
   width: 80px;
   margin-top: 60px;
   margin-left: 23%;
-}
-
-.titulo {
-  margin-top: 2%;
-  margin-left: 2%;
-  color: black;
-}
-
-.carousel-inner {
-  display: flex;
-  align-items: center;
-  margin-left: 35%;
-}
-
-.main-contacto {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: white;
-  margin-left: 30px;
-  height: 300px;
 }
 
 .grid-container {
@@ -84,21 +48,8 @@
 
 .grid-item {
   background-color: #463d37;
-  display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-
-.main-index {
-  height: 100px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: white;
-  margin-left: 30px;
-}
-
-.p-index {
-  margin-top: 6%;
 }
 
 @media screen and (max-width: 700px) {
@@ -117,7 +68,7 @@
     width: 85%;
   }
   .footer-all {
-    background-color: black;
+    background-color: rgb(43, 43, 43);
     height: 190px;
     margin-top: 200%;
     width: 100%;
@@ -153,11 +104,61 @@
     margin-left: 30px;
   }
 }
+.jc-c, .main-nosotros .contenedor, .footer-all .logosJuntos, .grid-item {
+  display: flex;
+  justify-content: center;
+}
+
+.ac-c {
+  display: flex;
+  align-items: center;
+}
+
+/** PAGES **/
+.main-index {
+  height: 100px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  margin-left: 0%;
+}
+.main-index .p-index {
+  margin-top: 6%;
+}
+.main-index .carousel {
+  margin-top: 2%;
+}
+
 .main-nosotros {
+  height: 100px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: white;
   margin-left: 30px;
-  height: 800px;
+  margin-top: 2%;
+}
+.main-nosotros .titulo-nosotros {
+  color: white;
+  margin-left: 8%;
+}
+.main-nosotros .nosotros-p {
+  font-size: x-large;
+  width: 70%;
+  margin-left: 10%;
+  padding: 1%;
+}
+.main-nosotros .contenedor {
+  background-color: rgb(26, 25, 22);
+  padding: 1%;
+  border-radius: 17px;
+  width: 80%;
+  margin-left: 8%;
+}
+.main-nosotros .contenedor .img-juan {
+  width: 15%;
+  border-radius: 17px;
+}
+.main-nosotros .contenedor .cont-text .p-nosotros, .main-nosotros .contenedor .cont-text .h2-n {
+  color: #b6a486;
+  padding: 2%;
 }
 
 .main-productos {
@@ -165,41 +166,25 @@
   color: white;
   margin-left: 30px;
   height: 600px;
+  margin-top: 2%;
 }
-
-.products {
+.main-productos .products {
   background-color: #463d37;
-  display: inline-block;
   border-radius: 17px;
   padding: 30px;
   margin: 10px;
 }
-
-.price {
-  color: white;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: x-large;
-  background-color: #1f1e1e;
-}
-
-.product-img {
+.main-productos .products .product-img {
   width: 20vh;
-  height: 20vh;
 }
-
-.price {
+.main-productos .products .price {
   color: white;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: x-large;
   background-color: #1f1e1e;
 }
-
-.promos {
-  display: inline-block;
-  border-radius: 17px;
-  padding: 30px;
-  margin: 10px;
-  height: 370px;
+.main-productos .products .price:hover {
+  background-color: #463d37;
 }
 
 .main-promos {
@@ -207,6 +192,71 @@
   color: white;
   margin-left: 30px;
   height: 800px;
+  margin-top: 2%;
+}
+.main-promos .products-promo {
+  background-color: #463d37;
+  border-radius: 17px;
+  padding: 30px;
+  margin: 10px;
+}
+.main-promos .products-promo .promo-img {
+  width: 20vh;
+}
+.main-promos .products-promo .price {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: x-large;
+  background-color: #1f1e1e;
+}
+.main-promos .products-promo .price:hover {
+  background-color: #463d37;
+}
+
+.main-contacto {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  margin-left: 30px;
+  height: 10%;
+}
+.main-contacto .contenedor {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3%;
+}
+.main-contacto .contenedor .div-cont {
+  background-color: rgb(26, 25, 22);
+  border-radius: 17px;
+  width: 45%;
+  margin-left: 2%;
+  padding: 1%;
+}
+.main-contacto .contenedor .div-cont .contacto-h2 {
+  color: #b6a486;
+}
+.main-contacto .contenedor .div-cont .p-contacto {
+  font-size: large;
+}
+.main-contacto .contenedor .div-form {
+  background-color: rgb(26, 25, 22);
+  border-radius: 17px;
+  padding: 1%;
+  width: 45%;
+  margin-left: 3%;
+}
+.main-contacto .contenedor .div-form .mb-3 {
+  width: 100%;
+  display: block;
+  color: white;
+}
+.main-contacto .contenedor .div-form .mb-3 .label-form {
+  background-color: rgb(43, 43, 43);
+}
+
+.footer-contacto {
+  background-color: rgb(43, 43, 43);
+  height: 190px;
+  margin-top: 8%;
 }
 
 /*# sourceMappingURL=style.css.map */

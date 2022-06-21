@@ -1,0 +1,45 @@
+.main-contacto{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin-left: 30px;
+    height: 10%;
+    .contenedor{
+        display: flex;
+        flex-direction: row;
+        margin-top: 3%;
+        .div-cont{
+            background-color:$cards-bg;
+            border-radius: $border-r;
+            width: 45%;
+            margin-left: 2%;
+            padding:1% ;
+
+            .contacto-h2{
+                color: $text;
+            }
+            .p-contacto{
+                font-size: large;
+            }
+        } 
+        .div-form{
+            background-color:$cards-bg;
+            border-radius: $border-r;
+            padding: 1%;
+            width: 45%;
+            margin-left: 3%;
+            .mb-3{
+                width: 100%;
+                display: block;
+                color: white;
+                .label-form{
+                    background-color: $h;
+                }
+            }
+        }
+    }
+}
+.footer-contacto{
+    background-color: $f;
+    height: 190px;
+    margin-top: 8%; 
+}

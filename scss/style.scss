@@ -1,10 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/** BASE **/
 @import 'base/colores';
+@import 'base/variables';
+
+/** COMPONENTES **/
 @import 'componentes/all';
-@import 'componentes/boostrap';
-@import 'componentes/contacto';
 @import 'componentes/grid';
-@import 'componentes/index';
 @import 'componentes/medias';
-@import 'componentes/nosotros';
-@import 'componentes/productos';
-@import 'componentes/promociones';
+@import 'componentes/extends';
+
+/** PAGES **/
+@import 'pages/index';
+@import 'pages/nosotros';
+@import 'pages/productos';
+@import 'pages/promociones';
+@import 'pages/contacto';

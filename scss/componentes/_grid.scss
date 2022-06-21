@@ -5,9 +5,8 @@
     gap: 8px;
 }
 .grid-item {
+    @extend .jc-c;
     background-color: #463d37 ;
-    display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
 }   
