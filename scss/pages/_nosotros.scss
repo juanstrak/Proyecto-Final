@@ -36,3 +36,20 @@
         }
     }
 }
+.footer-nosotros{
+    background-color:$f;
+    height: 190px;
+    margin-top: 33%;  
+    .logosJuntos-nosotros{
+        display: flex;
+        justify-content: center;
+        margin-left: 0%;
+        padding-top: 0%;
+        width: 100%;
+        .logoredes-nosotros{
+            width: 80px;
+            margin-top: 60px;
+            margin-left: 23%;
+        }
+    }
+}

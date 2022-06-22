@@ -1,4 +1,37 @@
-@media screen and   (max-width: 700px){
+@media screen and (max-width: 700px){
+/** ALL **/
+    .footer-all{
+        background-color: $f;
+        height: 190px;
+        margin-top: 200%;
+        width: 100%;  
+        .logosJuntos{
+            display: flex;
+            justify-content:center;
+            width: 100%;
+            .logoredes{
+                width: 50%;
+            }
+        }
+    }
+
+/** PAGE INDEX **/
+
+    .main-index{
+        height: 200px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        margin-left: 0%;
+    }
+    .p-index{
+        margin-top: 6%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+
+/** PAGE PRODUCTOS/PROMOCIONES **/
+
     .grid-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -13,40 +46,51 @@
         flex-direction: column;
         width: 85%;
     }
-    .footer-all{
-        background-color: $f;
-        height: 190px;
-        margin-top: 200%;
-        width: 100%;
-    }
     .footer-productos{
         margin-top: 440%;
     }
-    .logosJuntos{
+
+/** PAGE CONTACTO **/
+
+    .contenedor-contacto{
+        margin-top: 3%;
         display: flex;
-        justify-content:center;
-        width: 100%;
+        flex-direction: column;
     }
-    .logoredes{
-        width: 50%;
+    .div-cont{
+        background-color:$cards-bg;
+        border-radius: $border-r;
+        width: 89%;
+        margin-left: 2%;
+        padding:1% ;
+        margin-top: 4%;
+    } 
+    .div-form{
+        background-color:$cards-bg;
+        border-radius: $border-r;
+        padding: 1%;
+        width: 89%;
+        margin-left: 2%;
+        margin-top: 5%;
     }
-    .ul-list{
-        display: flex;
-        justify-content: space-between;
-        width: 600px;
-        margin-left: 100px;
-        margin-bottom: 0px;
+
+/** PAGE NOSOTROS **/
+    .contenedor{
+        display: grid;
+        flex-direction: column;
     }
-    .list-h{
-        text-decoration: none;
-        color: #b6a486;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: large;
-    }
-    .main-index{
-        height: 200px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color: white;
-        margin-left: 30px;
+    .footer-nosotros{
+        background-color: $f;
+        height: 190px;
+        margin-top: 200%;
+        width: 100%;  
+        .logosJuntos-nosotros{
+            display: flex;
+            justify-content:center;
+            width: 100%;
+            .logoredes-nosotros{
+                width: 50%;
+            }
+        }
     }
 }

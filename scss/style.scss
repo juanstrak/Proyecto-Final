@@ -7,15 +7,15 @@
 @import 'base/colores';
 @import 'base/variables';
 
-/** COMPONENTES **/
-@import 'componentes/all';
-@import 'componentes/grid';
-@import 'componentes/medias';
-@import 'componentes/extends';
-
 /** PAGES **/
 @import 'pages/index';
 @import 'pages/nosotros';
 @import 'pages/productos';
 @import 'pages/promociones';
 @import 'pages/contacto';
+
+/** COMPONENTES **/
+@import 'componentes/all';
+@import 'componentes/grid';
+@import 'componentes/medias';
+@import 'componentes/extends';
