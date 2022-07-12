@@ -4,26 +4,34 @@
     margin-left: 30px;
     height: 600px;
     margin-top: 2%;
-    .products{
+}
+.text-productos-promo{
+    font-family: 'Comfortaa', cursive;
+    color: white;
+}
+.products{
+    background-color: #463d37;
+    border-radius: 8px;
+    padding: 2%;
+    width: 94%;
+    }
+.product-img{
+    width: 20vh;
+}
+.price{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    background-color: #1f1e1e;
+    &:hover{
         background-color: #463d37;
-        border-radius: 17px;
-        padding: 30px;
-        margin: 10px;
-        .product-img{
-            width: 20vh;
-        }
-        .price{
-            color: white;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            font-size: x-large;
-            background-color: #1f1e1e;
-            &:hover{
-                background-color: #463d37;
-            }
-        }
     }
 }
 
-
-
+/**FOOTER**/
+.footer-productos{
+    background-color: #141414;
+    margin-top: 25%;
+    height: 300px  
+}
 

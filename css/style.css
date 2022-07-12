@@ -5,19 +5,144 @@
 
 /** BASE **/
 /** PAGES **/
+/**MAIN**/
 .main-index {
   height: 100px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: white;
   margin-left: 0%;
 }
-.main-index .p-index {
-  margin-top: 6%;
-}
-.main-index .carousel {
+
+.carousel {
   margin-top: 2%;
 }
 
+.p-index {
+  text-align: center;
+  margin-top: 3%;
+  font-family: "Comfortaa", cursive;
+  font-size: 115%;
+  margin-left: 9%;
+  margin-right: 9%;
+}
+
+.cont-allcate {
+  display: flex;
+  justify-content: center;
+}
+
+.cont-2 {
+  background-color: #463d37;
+  width: 75%;
+  border-radius: 8px;
+  padding: 3%;
+  margin-top: 2%;
+}
+
+.cont-cate {
+  display: flex;
+  justify-content: space-around;
+  width: 98%;
+}
+
+.p-index-cate {
+  display: flex;
+  justify-content: center;
+  font-family: "Comfortaa", cursive;
+  font-size: 185%;
+  border-radius: 8px;
+  background-color: #141414;
+  width: 38%;
+  padding: 1%;
+  margin-left: 30%;
+  margin-bottom: 3%;
+  color: #b6a486;
+}
+
+.cates {
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  width: 35vh;
+  border-radius: 8px;
+  padding: 30px;
+}
+
+.p-comu {
+  font-family: "Lato", sans-serif;
+  font-size: x-large;
+  color: #333333;
+  background-color: #00F1B7;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.p-espe {
+  font-family: "Lato", sans-serif;
+  font-size: x-large;
+  color: #333333;
+  background-color: #FD0060;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.p-star {
+  font-family: "Lato", sans-serif;
+  font-size: x-large;
+  color: #333333;
+  background-color: #00CE00;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.img-product-index {
+  width: 25vh;
+}
+
+.btn-comu {
+  background-color: #00F1B7;
+}
+.btn-comu:hover {
+  background-color: #00F1B7;
+  transform: scale(1.2);
+  transition: all 1s;
+}
+
+.btn-espe {
+  background-color: #FD0060;
+}
+.btn-espe:hover {
+  background-color: #FD0060;
+  transform: scale(1.2);
+  transition: all 1s;
+}
+
+.btn-star {
+  background-color: #00CE00;
+}
+.btn-star:hover {
+  background-color: #00CE00;
+  transform: scale(1.2);
+  transition: all 1s;
+}
+
+.cate-a {
+  text-decoration: none;
+  color: black;
+  font-family: "Comfortaa", cursive;
+  font-size: large;
+}
+
+/**FOOTER**/
+.footer-index {
+  background-color: #141414;
+  margin-top: 70%;
+  height: 300px;
+}
+
+/**MAIN**/
 .main-nosotros {
   height: 100px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -25,48 +150,44 @@
   margin-left: 30px;
   margin-top: 2%;
 }
-.main-nosotros .titulo-nosotros {
+
+.titulo-nosotros {
   color: white;
   margin-left: 8%;
+  font-size: x-large;
+  margin-top: 4%;
 }
-.main-nosotros .nosotros-p {
+
+.nosotros-p {
   font-size: x-large;
   width: 70%;
   margin-left: 10%;
   padding: 1%;
+  font-size: large;
 }
-.main-nosotros .contenedor {
-  background-color: rgb(26, 25, 22);
+
+.contenedor {
+  background-color: #463d37;
   padding: 1%;
-  border-radius: 17px;
+  border-radius: 9px;
   width: 80%;
   margin-left: 8%;
 }
-.main-nosotros .contenedor .img-juan {
-  width: 15%;
-  border-radius: 17px;
+
+.img-juan {
+  border-radius: 9px;
 }
-.main-nosotros .contenedor .cont-text .p-nosotros, .main-nosotros .contenedor .cont-text .h2-n {
+
+.p-nosotros, .h2-n {
   color: #b6a486;
   padding: 2%;
 }
 
+/**FOOTER**/
 .footer-nosotros {
-  background-color: rgb(43, 43, 43);
-  height: 190px;
-  margin-top: 33%;
-}
-.footer-nosotros .logosJuntos-nosotros {
-  display: flex;
-  justify-content: center;
-  margin-left: 0%;
-  padding-top: 0%;
-  width: 100%;
-}
-.footer-nosotros .logosJuntos-nosotros .logoredes-nosotros {
-  width: 80px;
-  margin-top: 60px;
-  margin-left: 23%;
+  background-color: #141414;
+  margin-top: 28%;
+  height: 300px;
 }
 
 .main-productos {
@@ -76,25 +197,41 @@
   height: 600px;
   margin-top: 2%;
 }
-.main-productos .products {
-  background-color: #463d37;
-  border-radius: 17px;
-  padding: 30px;
-  margin: 10px;
+
+.text-productos-promo {
+  font-family: "Comfortaa", cursive;
+  color: white;
 }
-.main-productos .products .product-img {
+
+.products {
+  background-color: #463d37;
+  border-radius: 8px;
+  padding: 2%;
+  width: 94%;
+}
+
+.product-img {
   width: 20vh;
 }
-.main-productos .products .price {
+
+.price {
   color: white;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: x-large;
   background-color: #1f1e1e;
 }
-.main-productos .products .price:hover {
+.price:hover {
   background-color: #463d37;
 }
 
+/**FOOTER**/
+.footer-productos {
+  background-color: #141414;
+  margin-top: 25%;
+  height: 300px;
+}
+
+/**MAIN**/
 .main-promos {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: white;
@@ -102,25 +239,59 @@
   height: 800px;
   margin-top: 2%;
 }
-.main-promos .products-promo {
-  background-color: #463d37;
-  border-radius: 17px;
-  padding: 30px;
-  margin: 10px;
+
+.cont-promos {
+  margin-left: 23%;
 }
-.main-promos .products-promo .promo-img {
-  width: 20vh;
-}
-.main-promos .products-promo .price {
+
+.price {
   color: white;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: x-large;
   background-color: #1f1e1e;
 }
-.main-promos .products-promo .price:hover {
+.price:hover {
   background-color: #463d37;
 }
 
+.products-promo {
+  border-radius: 8px;
+  padding: 2%;
+  margin: 10px;
+  background-color: #352f2b;
+  align-items: center;
+  flex-direction: column;
+  width: 70%;
+}
+
+.cont-imgs {
+  display: flex;
+}
+
+.promo-img {
+  width: 20vh;
+}
+
+.text-promociones {
+  font-family: "Comfortaa", cursive;
+  color: white;
+}
+
+.mas-promos {
+  font-size: xx-large;
+  margin-top: 12%;
+  font-family: "Comfortaa", cursive;
+  color: white;
+}
+
+/**FOOTER**/
+.footer-promociones {
+  background-color: #141414;
+  margin-top: 38%;
+  height: 300px;
+}
+
+/**MAIN**/
 .main-contacto {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: white;
@@ -134,12 +305,34 @@
   margin-top: 3%;
 }
 
+.cont {
+  margin-top: 4%;
+}
+
+.div-btn-contacto {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-contacto {
+  border-radius: 9px;
+  background-color: #463d37;
+  padding: 1%;
+  color: white;
+  border: solid 1px white;
+}
+.btn-contacto:hover {
+  transform: scale(1.1);
+  transition: all 0.8s;
+}
+
 .div-cont {
-  background-color: rgb(26, 25, 22);
-  border-radius: 17px;
+  background-color: #463d37;
+  border-radius: 9px;
   width: 45%;
   margin-left: 2%;
   padding: 1%;
+  height: 49vh;
 }
 .div-cont .contacto-h2 {
   color: #b6a486;
@@ -149,31 +342,27 @@
 }
 
 .div-form {
-  background-color: rgb(26, 25, 22);
-  border-radius: 17px;
+  background-color: #463d37;
+  border-radius: 9px;
   padding: 1%;
   width: 45%;
   margin-left: 3%;
 }
-.div-form .mb-3 {
+
+.mb-3 {
   width: 100%;
   display: block;
   color: white;
 }
-.div-form .mb-3 .label-form {
-  background-color: rgb(43, 43, 43);
+.mb-3 .label-form {
+  background-color: #333333;
 }
 
+/**FOOTER**/
 .footer-contacto {
-  background-color: rgb(43, 43, 43);
-  height: 190px;
-  margin-top: 8%;
-}
-
-.logoredes-contacto {
-  width: 80px;
-  margin-top: 60px;
-  margin-left: 23%;
+  background-color: #141414;
+  margin-top: 4%;
+  height: 300px;
 }
 
 /** COMPONENTES **/
@@ -181,94 +370,245 @@
   background-color: #696059;
   margin: 0px;
 }
-.body-all .header-all {
-  background-color: rgb(43, 43, 43);
+
+.header-all {
+  background-color: #141414;
 }
-.body-all .header-all .logokm {
-  width: 100px;
+
+.logokm {
+  width: 90%;
   margin-left: 60px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.body-all .header-all .nav-text {
+
+.navbar {
+  margin-left: 5%;
+}
+
+.nav-text {
   text-decoration: none;
   color: #b6a486;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Kantumruy Pro", sans-serif;
   font-size: large;
 }
-.body-all .header-all .nav-text:hover {
+.nav-text:hover {
   color: #463d37;
 }
 
-.footer-all {
-  background-color: rgb(43, 43, 43);
-  height: 190px;
-  margin-top: 40%;
+.collapse {
+  margin-left: 12%;
 }
-.footer-all .logosJuntos .logoredes {
-  width: 80px;
-  margin-top: 60px;
-  margin-left: 23%;
+
+.text-productos-promo {
+  font-family: "Comfortaa", cursive;
+  color: white;
+}
+
+/**Footer All**/
+.footer-all {
+  background-color: #141414;
+  height: 190px;
+  margin-top: 44%;
+}
+
+.footer-cont {
+  display: flex;
+  align-content: flex-start;
+  justify-content: center;
+  padding-top: 2%;
+}
+
+.footer-creador {
+  margin-top: 3%;
+}
+
+.cont-redes-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15%;
+  align-content: flex-end;
+}
+
+.logoredes {
+  width: 15%;
+  margin: 0.6%;
+}
+
+.text-p {
+  font-family: "Comfortaa", cursive;
+}
+
+.footer-text {
+  text-decoration: none;
+  color: white;
+  font-family: "Comfortaa", cursive;
+  font-size: small;
+}
+
+.Logo-footer {
+  width: 55%;
+}
+
+.p-footer {
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+
+.cont-logo-footer {
+  width: 17%;
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  gap: 8px;
+  width: 75%;
+  row-gap: 3%;
+  margin-left: 13%;
 }
 
-.grid-item {
-  background-color: #463d37;
+.grid-item-productos {
+  background-color: #352f2b;
   align-items: center;
   flex-direction: column;
 }
 
 @media screen and (max-width: 700px) {
   /** ALL **/
+  .logokm {
+    width: 90%;
+    margin-left: 18%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
   .footer-all {
-    background-color: rgb(43, 43, 43);
-    height: 190px;
-    margin-top: 200%;
-    width: 100%;
+    background-color: #141414;
+    height: 200px;
+    margin-top: 44%;
   }
-  .footer-all .logosJuntos {
+  .footer-cont {
     display: flex;
+    align-content: flex-start;
     justify-content: center;
+    padding-top: 8%;
+  }
+  .footer-creador {
+    width: 100%;
+    margin-top: 0%;
+  }
+  .cont-redes-footer {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .logoredes {
+    width: 15%;
+    margin: 0.6%;
+  }
+  .text-p {
+    font-family: "Comfortaa", cursive;
+  }
+  .footer-text {
+    text-decoration: none;
+    color: white;
+    font-family: "Comfortaa", cursive;
+    font-size: 65%;
+  }
+  .Logo-footer {
     width: 100%;
   }
-  .footer-all .logosJuntos .logoredes {
-    width: 50%;
+  .cont-logo-footer {
+    width: 65%;
+  }
+  .p-footer {
+    font-family: "Lato", sans-serif;
+    color: white;
+    font-size: 75%;
   }
   /** PAGE INDEX **/
-  .main-index {
-    height: 200px;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
-    margin-left: 0%;
+  .carousel {
+    margin-top: 4%;
   }
   .p-index {
-    margin-top: 6%;
-    margin-left: 2%;
-    margin-right: 2%;
+    font-size: 75%;
   }
-  /** PAGE PRODUCTOS/PROMOCIONES **/
-  .grid-container {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 8px;
-  }
-  .grid-item {
-    background-color: #463d37;
+  .cont-cate {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    width: 98%;
+    align-items: center;
+  }
+  .p-index-cate {
+    font-size: 105%;
+    width: 80%;
+    padding: 1%;
+    margin-left: 9%;
+  }
+  .cates {
+    width: 68%;
+    padding: 3%;
+    margin: 2%;
+  }
+  .p-comu {
+    font-size: 105%;
+  }
+  .p-espe {
+    font-size: 105%;
+  }
+  .p-star {
+    font-size: 105%;
+  }
+  .img-product-index {
+    width: 18vh;
+  }
+  .cate-a {
+    font-size: 85%;
+  }
+  .footer-index {
+    margin-top: 265%;
+    height: 200px;
+  }
+  /** PAGE PRODUCTOS **/
+  .text-productos-promo {
+    font-size: 85%;
+  }
+  .product-img {
+    width: 15vh;
+  }
+  .price {
+    font-size: 125%;
+  }
+  .footer-productos {
+    height: 200px;
+    margin-top: 350%;
+  }
+  /** PAGE PROMOCIONES **/
+  .price {
+    font-size: 125%;
+  }
+  .cont-promos {
+    margin-left: 3%;
+  }
+  .products-promo {
+    border-radius: 8px;
+    padding: 2%;
+    margin: 10px;
+    background-color: #352f2b;
     align-items: center;
     flex-direction: column;
     width: 85%;
+    margin-left: 2%;
   }
-  .footer-productos {
-    margin-top: 440%;
+  .promo-img {
+    width: 10vh;
+  }
+  .mas-promos {
+    font-size: large;
+    margin-top: 13%;
+  }
+  .footer-promociones {
+    margin-top: 20%;
+    height: 200px;
   }
   /** PAGE CONTACTO **/
   .contenedor-contacto {
@@ -277,42 +617,53 @@
     flex-direction: column;
   }
   .div-cont {
-    background-color: rgb(26, 25, 22);
-    border-radius: 17px;
     width: 89%;
     margin-left: 2%;
-    padding: 1%;
+    padding: 2%;
     margin-top: 4%;
+    height: 84%;
   }
   .div-form {
-    background-color: rgb(26, 25, 22);
-    border-radius: 17px;
-    padding: 1%;
+    padding: 2%;
     width: 89%;
     margin-left: 2%;
     margin-top: 5%;
   }
+  .footer-contacto {
+    background-color: #141414;
+    margin-top: 4%;
+    height: 200px;
+  }
   /** PAGE NOSOTROS **/
+  .titulo-nosotros {
+    color: white;
+    margin-left: 8%;
+    font-size: x-large;
+    margin-top: 4%;
+  }
   .contenedor {
     display: grid;
     flex-direction: column;
   }
   .footer-nosotros {
-    background-color: rgb(43, 43, 43);
-    height: 190px;
-    margin-top: 200%;
-    width: 100%;
+    margin-top: 238%;
+    height: 200px;
   }
-  .footer-nosotros .logosJuntos-nosotros {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+  /** GRID **/
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 75%;
+    row-gap: 9px;
+    margin-left: 13%;
   }
-  .footer-nosotros .logosJuntos-nosotros .logoredes-nosotros {
-    width: 50%;
+  .grid-item-productos {
+    background-color: #352f2b;
+    align-items: center;
+    flex-direction: column;
   }
 }
-.jc-c, .main-nosotros .contenedor, .logosJuntos-contacto, .footer-all .logosJuntos, .grid-item {
+.jc-c, .p-comu, .p-espe, .p-star, .contenedor, .products-promo, .grid-item-productos {
   display: flex;
   justify-content: center;
 }

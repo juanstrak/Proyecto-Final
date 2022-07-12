@@ -1,12 +1,13 @@
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 8px;
+    grid-template-columns: repeat(3,1fr);
+    width: 75%;  
+    row-gap: 3%;
+    margin-left:13%;   
 }
-.grid-item {
+.grid-item-productos {
     @extend .jc-c;
-    background-color: #463d37 ;
+    background-color: #352f2b ;
     align-items: center;
     flex-direction: column;
-}   
+} 
